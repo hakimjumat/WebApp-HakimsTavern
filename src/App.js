@@ -3,37 +3,6 @@ import "./style.css";
 import supabase from "./supabase";
 import LoadingSpin from "react-loading-spin";
 
-//REACT state function
-// function Counter() {
-//   const [count, setCount] = useState(0);
-//   const [fontNumber, setFontNumber] = useState(40);
-//   console.log(fontNumber);
-
-//   return (
-//     <div>
-//       <span style={{ fontSize: fontNumber }}>{count}</span>
-//       <button
-//         className="btn btn-large"
-//         onClick={() => {
-//           setFontNumber((prevNumber) => prevNumber + 10);
-//           setCount((prevCount) => prevCount + 1);
-//         }}
-//       >
-//         +1
-//       </button>
-//       <button
-//         className="btn btn-large"
-//         onClick={() => {
-//           setFontNumber(40);
-//           setCount(0);
-//         }}
-//       >
-//         RESET
-//       </button>
-//     </div>
-//   );
-// }
-
 function App() {
   //define state variable
   const [showForm, setShowForm] = useState(false);
@@ -297,7 +266,7 @@ function Fact({ fact, setFacts }) {
       <p>
         {isDisputed ? <span className="disputed">[⛔️DISPUTED⛔️]</span> : null}
         {fact.text}
-        <a className="source" href={fact.source} target="_blank">
+        <a className="source" href={fact.source} target="_blank" rel="noopener">
           (Source)
         </a>
       </p>

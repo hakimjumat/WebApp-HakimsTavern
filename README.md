@@ -1,6 +1,10 @@
 # myCodingJourney
 
-Welcome to my Github page! Attached is my first guided tutorial attempt in creating a simple react social news website.
-Code was written in vsCode with the help of Supabase for the backend database and lastly,
+Welcome to my Github page! Attached is my first guided tutorial attempt in creating a simple social news web application.
+Code was written in primarily with HTML, CSS and Javascript before rewriting in Reac. Supabase was chosen for the backend database and lastly,
 deployed on Netlify.
 link: "https://hakims-tavern.netlify.app"
+
+![image](https://github.com/user-attachments/assets/c28056d7-28c6-4aa1-b06b-82c1091db395)
+
+# Update 1: Database is inactive at the time of writing
